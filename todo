@@ -5,4 +5,6 @@
 -[x] Add Font Awesome CDN
 -[x] Set up the base template
 -[x] Create django app and models for products
--[] Crate Serializer and Views for the products
+-[x] Crate Serializer and Views for the products
+-[] Create simple front page (latest product)
+
