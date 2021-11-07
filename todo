@@ -1,4 +1,8 @@
 -- TODO list
 
-- install and setup Django, Django Rest Framework
-- install Vue
+-[x] install and setup Django, Django Rest Framework
+-[x] install Vue
+-[x] Add Font Awesome CDN
+-[x] Set up the base template
+-[x] Create django app and models for products
+-[] Crate Serializer and Views for the products
