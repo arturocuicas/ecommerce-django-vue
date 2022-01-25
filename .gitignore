@@ -230,3 +230,5 @@ test/
 .idea/
 
 todo
+
+/node_modules

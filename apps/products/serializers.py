@@ -1,13 +1,6 @@
 from rest_framework import serializers
 
 
-class Categoryerializer(serializers.Serializer):
-    id = serializers.IntegerField(read_only=True)
-    name = serializers.CharField()
-
-    get_absolute_url = serializers.SerializerMethodField()
-
-
 class ProductSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
     name = serializers.CharField()
@@ -17,6 +10,12 @@ class ProductSerializer(serializers.Serializer):
     get_thumbnail = serializers.CharField()
     get_absolute_url = serializers.CharField()
 
+
+class CategorySerializer(serializers.Serializer):
+    id = serializers.IntegerField(read_only=True)
+    name = serializers.CharField()
+    get_absolute_url = serializers.CharField()
+    products = ProductSerializer(many=True)
 
 
 

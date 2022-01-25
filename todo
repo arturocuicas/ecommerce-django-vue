@@ -11,4 +11,7 @@
     - Create ViewSet in Django
     - Create vue page for showing product
     - Add link to detail page
--[] Set opp Vuex / State
+-[x] Set opp Vuex / State
+-[x] Title, loading effect
+-[x] Category Detail
+
